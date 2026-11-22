@@ -2,21 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\StoreTaskRequest;
 use App\Models\Task;
-use App\Rules\MaxPendingTasksPerUser;
 use Illuminate\Http\JsonResponse;
-use Illuminate\Http\Request;
 
 class TaskController extends Controller
 {
-    public function store(Request $request): JsonResponse
+    public function store(StoreTaskRequest $request): JsonResponse
     {
-        $validated = $request->validate([
-            'company_id' => ['required', 'integer', 'exists:companies,id'],
-            'name' => ['required', 'string', 'max:255'],
-            'description' => ['required', 'string', 'max:1000'],
-            'user_id' => ['required', 'integer', 'exists:users,id', new MaxPendingTasksPerUser(5)],
-        ]);
+        $validated = $request->validated();
 
         $task = Task::create([
             ...$validated,
