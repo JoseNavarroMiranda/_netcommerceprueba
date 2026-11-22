@@ -13,4 +13,5 @@
 
 <p>Metodo Post</p>
 <img width="1884" height="1023" alt="image" src="https://github.com/user-attachments/assets/b0eaa7f2-fdb0-486a-a1f3-72d57e94622e" />
+<img width="828" height="326" alt="image" src="https://github.com/user-attachments/assets/804053fe-5beb-4a6d-98d3-38c018de8733" />
 
