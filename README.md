@@ -3,8 +3,11 @@
 <br></br>
 
 <img width="1884" height="1023" alt="image" src="https://github.com/user-attachments/assets/7484bd68-5c3c-4590-8f6c-8306cce344ce" />
+<br></br>
+<br></br>
 <p>Metodo GET</p>
 <img width="1890" height="1023" alt="image" src="https://github.com/user-attachments/assets/e5a12f96-78b2-4e85-8ae6-dab43abc9eb9" />
+<img width="1890" height="1023" alt="image" src="https://github.com/user-attachments/assets/5b4a286e-6e53-4b8b-af34-8da51209200c" />
 
 
 <br></br>
