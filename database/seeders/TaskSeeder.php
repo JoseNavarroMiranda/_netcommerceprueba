@@ -23,8 +23,8 @@ class TaskSeeder extends Seeder
                 'description' => 'task content',
                 'user_id' => $akira->id,
                 'is_completed' => 0,
-                'start_at' => '2023-08-04 00:00:00',
-                'expired_at' => '2023-08-07 00:00:00',
+                'start_at' => '2026-08-04 00:00:00',
+                'expired_at' => '2026-08-07 00:00:00',
             ],
         );
 
@@ -34,7 +34,7 @@ class TaskSeeder extends Seeder
                 'description' => 'task content',
                 'user_id' => $akira->id,
                 'is_completed' => 1,
-                'start_at' => '2023-08-04 00:00:00',
+                'start_at' => '2026-08-04 00:00:00',
                 'expired_at' => null,
             ],
         );
